@@ -28,7 +28,7 @@ const News = (props) => {
 
   useEffect(()=>{
     newsUpdate(page,props.category)
-
+ // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
 
 
