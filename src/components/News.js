@@ -53,9 +53,9 @@ const News = (props) => {
   category = category.charAt(0).toUpperCase() + category.slice(1);
   return (
 
-    <div className="container my-3">
+    <div className="container my-3"  >
       <div className="row my-3">
-        <h1 className="text-center">
+        <h1 className="text-center" style={{marginTop:"85px"}}>
           NewsMonkey - Top Headlines for Today
         </h1>
         <h2 className="text-center">

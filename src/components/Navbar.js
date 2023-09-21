@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
         return (
             <div>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+                <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark px-3">
                     <Link className="navbar-brand" to="/">
                         <img src="newspaper.png" width="30" height="30" className="d-inline-block align-top" alt="News-monkey-logo" />
                      <strong> NewsMonkey</strong>
